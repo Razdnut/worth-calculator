@@ -19,6 +19,16 @@ export const LanguageSwitcher: React.FC = () => {
         中文
       </button>
       <button
+        onClick={() => setLanguage('it')}
+        className={`px-1.5 py-0.5 text-xs font-medium rounded-md transition-colors ${
+          language === 'it'
+            ? 'bg-blue-500 text-white dark:bg-blue-600'
+            : 'bg-gray-100 text-gray-800 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-600'
+        }`}
+      >
+        Italiano
+      </button>
+      <button
         onClick={() => setLanguage('en')}
         className={`px-1.5 py-0.5 text-xs font-medium rounded-md transition-colors ${
           language === 'en'
@@ -40,4 +50,4 @@ export const LanguageSwitcher: React.FC = () => {
       </button>
     </div>
   );
-}; 
+};

@@ -41,7 +41,7 @@ export default function HorizontalBanner() {
           {/* 实际广告图片 */}
           <Image 
             src="/banner.png"
-            alt="横幅广告"
+            alt="Banner pubblicitario"
             fill
             className="object-cover"
             priority

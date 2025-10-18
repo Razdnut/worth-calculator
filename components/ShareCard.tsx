@@ -210,6 +210,9 @@ const getCountryName = (countryCode: string, currentLanguage: string): string =>
   if (currentLanguage === 'ja') {
     return countryNames.ja[countryCode] || countryCode || '不明';
   }
+  if (currentLanguage === 'it') {
+    return countryNames.it[countryCode] || countryCode || 'Sconosciuto';
+  }
   return countryNames.zh[countryCode] || countryCode || '未知';
 };
 
@@ -605,7 +608,7 @@ const ShareCard: React.FC<ShareCardProps> = (props) => {
       
     } catch (error) {
       console.error('生成分享图片失败:', error);
-      alert('生成分享图片失败，请稍后再试');
+      alert('Impossibile generare l\'immagine di condivisione, riprova più tardi.');
     } finally {
       setIsDownloading(false);
     }

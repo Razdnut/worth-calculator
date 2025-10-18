@@ -782,7 +782,7 @@ const SalaryCalculator = () => {
   }) => (
     <div className="space-y-2">
       <label className="block text-sm font-medium text-gray-700 dark:text-gray-300">{label}</label>
-      <div className={`grid ${language === 'en' ? 'grid-cols-3' : 'grid-cols-4'} gap-2`}>
+      <div className={`grid ${(language === 'en' || language === 'it') ? 'grid-cols-3' : 'grid-cols-4'} gap-2`}>
         {options.map((option) => (
           <button
             key={option.value}
@@ -871,6 +871,9 @@ const SalaryCalculator = () => {
     }
     if (language === 'ja') {
       return countryNames.ja[countryCode] || countryCode || '不明';
+    }
+    if (language === 'it') {
+      return countryNames.it[countryCode] || countryCode || 'Sconosciuto';
     }
     return countryNames.zh[countryCode] || countryCode || '未知';
   }, [language]);
@@ -1249,7 +1252,7 @@ const SalaryCalculator = () => {
                   // 确保中国始终排在第一位
                   if (a === 'CN') return -1;
                   if (b === 'CN') return 1;
-                  return new Intl.Collator(['zh', 'ja', 'en']).compare(getCountryName(a), getCountryName(b));
+                  return new Intl.Collator(['zh', 'ja', 'it', 'en']).compare(getCountryName(a), getCountryName(b));
                 }).map(code => (
                   <option key={code} value={code}>
                     {getCountryName(code)} ({pppFactors[code].toFixed(2)})
