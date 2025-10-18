@@ -19,6 +19,8 @@
 </div>
 
 <p>
+   <a href="#italian"><img src="https://img.shields.io/badge/Italiano-2ecc71?style=for-the-badge" alt="Italiano" /></a>
+   &nbsp;&nbsp;
    <a href="#english"><img src="https://img.shields.io/badge/English-blue?style=for-the-badge" alt="English" /></a>
    &nbsp;&nbsp;
    <a href="#中文"><img src="https://img.shields.io/badge/中文-red?style=for-the-badge" alt="中文" /></a>
@@ -29,6 +31,45 @@
 <p>
 🔥(访问量激增，Vercel免费额度老是用完，广告位招租)🔥
 </p>
+</div>
+
+---
+
+<div id="italian">
+
+<h2 align="center">📊 Calcolatore del Valore del Lavoro</h2>
+
+<p align="center"><i>Valuta quanto vale davvero il tuo impiego, oltre allo stipendio</i></p>
+
+### ✨ Funzionalità principali
+
+- **💰 Valutazione completa**: considera stipendio, orari, straordinari, benefit e qualità della vita
+- **🌍 Conversione PPP**: confronta gli stipendi internazionali grazie alla parità di potere d'acquisto
+- **👩‍🎓 Parametri personali**: personalizza il calcolo con formazione, esperienza e condizioni di lavoro
+- **📝 Report condivisibile**: genera un'analisi pronta da scaricare e condividere
+- **🌐 Multilingue**: interfaccia disponibile in Italiano, Inglese, Cinese e Giapponese
+- **📱 Ottimizzato per mobile**: layout responsivo adatto a ogni dispositivo
+
+### 🚀 Avvio rapido
+
+1. `npm install`
+2. `npm run dev`
+3. Apri [http://localhost:3000](http://localhost:3000)
+
+### 🐳 Esecuzione con Docker
+
+```bash
+docker compose up --build
+```
+
+L'applicazione sarà disponibile su [http://localhost:3000](http://localhost:3000).
+
+### 🧾 Script utili
+
+- `npm run dev` – avvio in modalità sviluppo
+- `npm run build` – build di produzione
+- `npm run start` – esecuzione del server di produzione
+
 </div>
 
 ---
@@ -45,7 +86,7 @@
 - **🌏 PPP Conversion**: International salary comparison with Purchasing Power Parity conversion across 190+ countries
 - **👩‍🎓 Personal Factors**: Customize calculations with personal education level, work experience, and more
 - **📱 Detailed Report**: Generate a shareable, downloadable job analysis report
-- **🌐 Internationalization**: Available in English/Chinese/Japanese.
+- **🌐 Internationalization**: Available in Italian/English/Chinese/Japanese.
 - **📱 Mobile Friendly**: Responsive design works on all devices
 
 ### 🖥️ How to Use
@@ -77,6 +118,14 @@ Contributions are welcome! Here's how you can help:
 
 Please make sure to test your changes before submitting a PR.
 
+### 🐳 Docker
+
+```bash
+docker compose up --build
+```
+
+The application will be available at [http://localhost:3000](http://localhost:3000).
+
 ### 📝 License
 
 [MIT License](LICENSE)
@@ -97,7 +146,7 @@ Please make sure to test your changes before submitting a PR.
 - **🌏 PPP转换**: 通过购买力平价(PPP)转换支持190多个国家的薪资比较
 - **👩‍🎓 个人因素**: 根据个人学历、工作经验等定制计算
 - **📱 详细报告**: 生成可分享、可下载的工作分析报告
-- **🌐 国际化**: 支持中文/英文/日文
+- **🌐 国际化**: 支持意大利语/中文/英文/日文
 - **📱 移动友好**: 响应式设计，适用于所有设备
 
 ### 🖥️ 使用方法
@@ -149,7 +198,7 @@ Please make sure to test your changes before submitting a PR.
 - **🌏 PPP変換**: 購買力平価(PPP)による190カ国以上の国際的な給与比較
 - **👩‍🎓 個人要素**: 学歴、職歴などに基づくカスタム計算
 - **📱 詳細レポート**: 共有可能でダウンロード可能な仕事分析レポートの生成
-- **🌐 多言語対応**: 英語、中国語、日本語で利用可能
+- **🌐 多言語対応**: イタリア語・英語・中国語・日本語で利用可能
 - **📱 モバイル対応**: すべてのデバイスで動作するレスポンシブデザイン
 
 ### 🖥️ 使用方法

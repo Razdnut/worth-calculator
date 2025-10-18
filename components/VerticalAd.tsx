@@ -44,7 +44,7 @@ export default function VerticalAd() {
         <button
           onClick={handleClose}
           className="absolute -top-2 -right-2 z-10 rounded-full bg-white p-1 shadow-lg hover:bg-gray-100 transition-colors"
-          aria-label="关闭广告"
+          aria-label="Chiudi annuncio"
         >
           <X className="h-5 w-5 text-gray-700" />
         </button>
@@ -63,7 +63,7 @@ export default function VerticalAd() {
           {/* 实际广告图片 */}
           <Image 
             src="/mainpage.png"
-            alt="广告"
+            alt="Annuncio"
             fill
             className="object-cover"
             priority
