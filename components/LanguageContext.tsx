@@ -768,6 +768,11 @@ const translations: Record<Language, Record<string, string>> = {
     'delete_history': '删除',
     'clear_all': '清空全部',
     'restore_history': '恢复此记录',
+    'footer_offerselect': 'OfferSelect',
+    'footer_city_compare': '城市对比',
+    'footer_ai_exam': 'AI笔试',
+    'footer_perler_beads': '拼豆图纸',
+    'footer_more_tools': '更多实用工具 by zippland.com',
     
     // 表单标签
     'annual_salary_cny': '年薪总包（元）',
@@ -1005,6 +1010,11 @@ const translations: Record<Language, Record<string, string>> = {
     'delete_history': 'Eliminare',
     'clear_all': 'Cancella tutto',
     'restore_history': 'Ripristina questo record',
+    'footer_offerselect': 'OfferSelect',
+    'footer_city_compare': 'Confronto città',
+    'footer_ai_exam': 'Test scritto AI',
+    'footer_perler_beads': 'Schemi per perline',
+    'footer_more_tools': 'Altri strumenti utili by zippland.com',
     'annual_salary_cny': 'Stipendio annuale (CNY)',
     'annual_salary_foreign': 'Stipendio annuale (valuta locale)',
     'annual_salary': 'Stipendio annuale',
@@ -1225,6 +1235,11 @@ const translations: Record<Language, Record<string, string>> = {
     'delete_history': 'Delete',
     'clear_all': 'Clear All',
     'restore_history': 'Restore this record',
+    'footer_offerselect': 'OfferSelect',
+    'footer_city_compare': 'City Compare',
+    'footer_ai_exam': 'AI Written Test',
+    'footer_perler_beads': 'Perler Bead Patterns',
+    'footer_more_tools': 'More useful tools by zippland.com',
     
     // Form labels
     'annual_salary_cny': 'Annual Salary (CNY)',
@@ -1463,6 +1478,11 @@ const translations: Record<Language, Record<string, string>> = {
     'delete_history': '削除',
     'clear_all': 'すべて削除',
     'restore_history': 'この記録を復元',
+    'footer_offerselect': 'OfferSelect',
+    'footer_city_compare': '都市比較',
+    'footer_ai_exam': 'AI筆記試験',
+    'footer_perler_beads': 'アイロンビーズ図案',
+    'footer_more_tools': '他の便利ツール by zippland.com',
     
     // フォームラベル
     'annual_salary_cny': '年収（元）',
